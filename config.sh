@@ -1,19 +1,20 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
+GITHUB_USER="codebht"
+GITHUB_EMAIL="bhavitpal1412@gmail.com"
 
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+KBUILD_BUILD_USER="AxionOS"
+KBUILD_BUILD_HOST="Buildbot"
 
-export oem=motorola
-export device=harpia
+export oem="micromax"
+export device="yogurt"
 
-ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
-export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+export ROM="AxionOS"
+export manifest_url="https://github.com/AxionAOSP/android.git"
+export branch="lineage-23.2"
 
-release_repo="Akianonymus/harpia_builds"
+export rom_vendor_name="lineage"
 
-timezone="Asia/Kolkata"
+export release_repo="YOUR_GITHUB_USERNAME/releases"
+
+export timezone="Asia/Kolkata"
